@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jcapimin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jcapistd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jccoefct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jccolor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jcdctmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jchuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jcinit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jcmainct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jcmarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jcmaster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jcomapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jcparam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jcphuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jcprepct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jcsample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jctrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdapimin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdapistd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdatadst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdatasrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdcoefct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdcolor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jddctmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdhuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdinput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdmainct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdmarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdmaster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdmerge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdphuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdpostct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdsample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdtrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jfdctflt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jfdctfst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jfdctint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jidctflt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jidctfst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jidctint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jidctred.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jquant1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jquant2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jmemmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jmemnobs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jaricom.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jcarith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\jdarith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\demo\libjpeg-turbo-1.5.1\simd\jsimd_i386.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jsimdcpu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jfdctflt-3dn.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jidctflt-3dn.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jquant-3dn.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jccolor-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jcgray-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jcsample-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jdcolor-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jdmerge-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jdsample-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jfdctfst-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jfdctint-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jidctfst-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jidctint-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jidctred-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jquant-mmx.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jfdctflt-sse.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jidctflt-sse.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jquant-sse.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jccolor-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jcgray-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jchuff-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jcsample-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jdcolor-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jdmerge-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jdsample-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jfdctfst-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jfdctint-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jidctflt-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jidctfst-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jidctint-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jidctred-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jquantf-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\$(Configuration)\jquanti-sse2.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{73194875-7D82-31EB-BA1A-5365BD00ED7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{5781931E-9A5E-3A9F-BD28-9BD38777FD2F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1EC271DE-7E8D-3730-A997-03CB363F3D33}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>installer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\demo\libjpeg-turbo-1.5.1\build\x86;F:\demo\libjpeg-turbo-1.5.1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\demo\libjpeg-turbo-1.5.1\build\x86;F:\demo\libjpeg-turbo-1.5.1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\demo\libjpeg-turbo-1.5.1\build\x86;F:\demo\libjpeg-turbo-1.5.1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\demo\libjpeg-turbo-1.5.1\build\x86;F:\demo\libjpeg-turbo-1.5.1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/demo/libjpeg-turbo-1.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/demo/libjpeg-turbo-1.5.1 -BF:/demo/libjpeg-turbo-1.5.1/build/x86 --check-stamp-file F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/demo/libjpeg-turbo-1.5.1/CMakeLists.txt;F:\demo\libjpeg-turbo-1.5.1\CMakeLists.txt;F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;F:\demo\libjpeg-turbo-1.5.1\win\jconfig.h.in;F:\demo\libjpeg-turbo-1.5.1\win\jconfigint.h.in;F:\demo\libjpeg-turbo-1.5.1\release\libjpeg-turbo.nsi.in;F:\demo\libjpeg-turbo-1.5.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/demo/libjpeg-turbo-1.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/demo/libjpeg-turbo-1.5.1 -BF:/demo/libjpeg-turbo-1.5.1/build/x86 --check-stamp-file F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/demo/libjpeg-turbo-1.5.1/CMakeLists.txt;F:\demo\libjpeg-turbo-1.5.1\CMakeLists.txt;F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;F:\demo\libjpeg-turbo-1.5.1\win\jconfig.h.in;F:\demo\libjpeg-turbo-1.5.1\win\jconfigint.h.in;F:\demo\libjpeg-turbo-1.5.1\release\libjpeg-turbo.nsi.in;F:\demo\libjpeg-turbo-1.5.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/demo/libjpeg-turbo-1.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/demo/libjpeg-turbo-1.5.1 -BF:/demo/libjpeg-turbo-1.5.1/build/x86 --check-stamp-file F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/demo/libjpeg-turbo-1.5.1/CMakeLists.txt;F:\demo\libjpeg-turbo-1.5.1\CMakeLists.txt;F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;F:\demo\libjpeg-turbo-1.5.1\win\jconfig.h.in;F:\demo\libjpeg-turbo-1.5.1\win\jconfigint.h.in;F:\demo\libjpeg-turbo-1.5.1\release\libjpeg-turbo.nsi.in;F:\demo\libjpeg-turbo-1.5.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/demo/libjpeg-turbo-1.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/demo/libjpeg-turbo-1.5.1 -BF:/demo/libjpeg-turbo-1.5.1/build/x86 --check-stamp-file F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/demo/libjpeg-turbo-1.5.1/CMakeLists.txt;F:\demo\libjpeg-turbo-1.5.1\CMakeLists.txt;F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\3.5.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\3.5.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\3.5.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;F:\demo\libjpeg-turbo-1.5.1\win\jconfig.h.in;F:\demo\libjpeg-turbo-1.5.1\win\jconfigint.h.in;F:\demo\libjpeg-turbo-1.5.1\release\libjpeg-turbo.nsi.in;F:\demo\libjpeg-turbo-1.5.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\bf7c8e15cd8b3aff0fdd27b101ae2f8c\installer.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+makensis -nocd -DBUILDDIR=$(Configuration)\ libjpeg-turbo.nsi
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/demo/libjpeg-turbo-1.5.1/build/x86/CMakeFiles/bf7c8e15cd8b3aff0fdd27b101ae2f8c/installer.rule;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\Debug\jpeg8.dll;F:\demo\libjpeg-turbo-1.5.1\build\x86\Debug\jpeg-static.lib;F:\demo\libjpeg-turbo-1.5.1\build\x86\Debug\turbojpeg.dll;F:\demo\libjpeg-turbo-1.5.1\build\x86\Debug\turbojpeg-static.lib;F:\demo\libjpeg-turbo-1.5.1\build\x86\Debug\rdjpgcom.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\Debug\wrjpgcom.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\Debug\cjpeg.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\Debug\djpeg.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\Debug\jpegtran.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\Debug\tjbench.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\installer</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+makensis -nocd -DBUILDDIR=$(Configuration)\ libjpeg-turbo.nsi
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/demo/libjpeg-turbo-1.5.1/build/x86/CMakeFiles/bf7c8e15cd8b3aff0fdd27b101ae2f8c/installer.rule;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\Release\jpeg8.dll;F:\demo\libjpeg-turbo-1.5.1\build\x86\Release\jpeg-static.lib;F:\demo\libjpeg-turbo-1.5.1\build\x86\Release\turbojpeg.dll;F:\demo\libjpeg-turbo-1.5.1\build\x86\Release\turbojpeg-static.lib;F:\demo\libjpeg-turbo-1.5.1\build\x86\Release\rdjpgcom.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\Release\wrjpgcom.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\Release\cjpeg.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\Release\djpeg.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\Release\jpegtran.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\Release\tjbench.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\installer</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+makensis -nocd -DBUILDDIR=$(Configuration)\ libjpeg-turbo.nsi
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/demo/libjpeg-turbo-1.5.1/build/x86/CMakeFiles/bf7c8e15cd8b3aff0fdd27b101ae2f8c/installer.rule;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\MinSizeRel\jpeg8.dll;F:\demo\libjpeg-turbo-1.5.1\build\x86\MinSizeRel\jpeg-static.lib;F:\demo\libjpeg-turbo-1.5.1\build\x86\MinSizeRel\turbojpeg.dll;F:\demo\libjpeg-turbo-1.5.1\build\x86\MinSizeRel\turbojpeg-static.lib;F:\demo\libjpeg-turbo-1.5.1\build\x86\MinSizeRel\rdjpgcom.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\MinSizeRel\wrjpgcom.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\MinSizeRel\cjpeg.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\MinSizeRel\djpeg.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\MinSizeRel\jpegtran.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\MinSizeRel\tjbench.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\installer</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+makensis -nocd -DBUILDDIR=$(Configuration)\ libjpeg-turbo.nsi
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/demo/libjpeg-turbo-1.5.1/build/x86/CMakeFiles/bf7c8e15cd8b3aff0fdd27b101ae2f8c/installer.rule;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\RelWithDebInfo\jpeg8.dll;F:\demo\libjpeg-turbo-1.5.1\build\x86\RelWithDebInfo\jpeg-static.lib;F:\demo\libjpeg-turbo-1.5.1\build\x86\RelWithDebInfo\turbojpeg.dll;F:\demo\libjpeg-turbo-1.5.1\build\x86\RelWithDebInfo\turbojpeg-static.lib;F:\demo\libjpeg-turbo-1.5.1\build\x86\RelWithDebInfo\rdjpgcom.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\RelWithDebInfo\wrjpgcom.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\RelWithDebInfo\cjpeg.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\RelWithDebInfo\djpeg.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\sharedlib\RelWithDebInfo\jpegtran.exe;F:\demo\libjpeg-turbo-1.5.1\build\x86\RelWithDebInfo\tjbench.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\installer</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\installer" />
+    <None Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\libjpeg-turbo.nsi" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:/demo/libjpeg-turbo-1.5.1/build/x86/ZERO_CHECK.vcxproj">
+      <Project>223E7501-1846-3182-82E8-F66710A2B916</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/demo/libjpeg-turbo-1.5.1/build/x86/sharedlib/cjpeg.vcxproj">
+      <Project>F106F1D1-C541-3892-9C2F-85DEC437EB90</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/demo/libjpeg-turbo-1.5.1/build/x86/sharedlib/djpeg.vcxproj">
+      <Project>9109718C-67C8-3A95-811B-DBEDC8C7576B</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/demo/libjpeg-turbo-1.5.1/build/x86/sharedlib/jpeg.vcxproj">
+      <Project>FBD78E17-477B-3BC5-9169-2208999CA480</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/demo/libjpeg-turbo-1.5.1/build/x86/jpeg-static.vcxproj">
+      <Project>E27F16AB-262A-39F4-8E03-11040CFA0040</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/demo/libjpeg-turbo-1.5.1/build/x86/sharedlib/jpegtran.vcxproj">
+      <Project>F89A40E4-426F-317B-A039-C54D7DBEE0EB</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/demo/libjpeg-turbo-1.5.1/build/x86/rdjpgcom.vcxproj">
+      <Project>45EAACFC-5644-3B3B-8A3B-C906307C39E4</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/demo/libjpeg-turbo-1.5.1/build/x86/tjbench.vcxproj">
+      <Project>16257F5A-34DE-33BB-89D3-1EF4EF252541</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/demo/libjpeg-turbo-1.5.1/build/x86/turbojpeg.vcxproj">
+      <Project>CEC85B0D-FD67-3046-8862-EE3A9A13DA5D</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/demo/libjpeg-turbo-1.5.1/build/x86/turbojpeg-static.vcxproj">
+      <Project>853697F9-6AB2-37EB-90D0-E121CA803B07</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/demo/libjpeg-turbo-1.5.1/build/x86/wrjpgcom.vcxproj">
+      <Project>F1ED15FF-0C92-3F5B-A18A-1F18DA9502BC</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

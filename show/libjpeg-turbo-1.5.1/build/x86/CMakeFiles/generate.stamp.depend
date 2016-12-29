@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+F:/demo/libjpeg-turbo-1.5.1/CMakeLists.txt
+F:/demo/libjpeg-turbo-1.5.1/build/x86/CMakeFiles/3.5.2/CMakeSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeSystemSpecificInitialize.cmake
+F:/demo/libjpeg-turbo-1.5.1/build/x86/CMakeFiles/3.5.2/CMakeCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeLanguageInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/Platform/Windows-MSVC.cmake
+F:/demo/libjpeg-turbo-1.5.1/build/x86/CMakeFiles/3.5.2/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeCommonLanguageInclude.cmake
+F:/demo/libjpeg-turbo-1.5.1/win/jconfig.h.in
+F:/demo/libjpeg-turbo-1.5.1/win/jconfigint.h.in
+F:/demo/libjpeg-turbo-1.5.1/release/libjpeg-turbo.nsi.in

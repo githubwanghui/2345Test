@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\simd\CMakeLists.txt" />
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jsimdcpu.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jfdctflt-3dn.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jidctflt-3dn.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jquant-3dn.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jccolor-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jcgray-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jcsample-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jdcolor-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jdmerge-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jdsample-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jfdctfst-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jfdctint-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jidctfst-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jidctint-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jidctred-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jquant-mmx.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jfdctflt-sse.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jidctflt-sse.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jquant-sse.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jccolor-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jcgray-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jchuff-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jcsample-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jdcolor-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jdmerge-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jdsample-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jfdctfst-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jfdctint-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jidctflt-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jidctfst-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jidctint-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jidctred-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jquantf-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\dd274f07c8fef090389f1a90c833f5cb\jquanti-sse2.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\CMakeFiles\fffbd19312bc75bb487c496818caa65d\simd.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\demo\libjpeg-turbo-1.5.1\build\x86\simd\CMakeFiles\simd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EEFAB682-CF9D-34FC-8DBE-31D6A7ACD498}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
